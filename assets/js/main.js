@@ -333,3 +333,10 @@
 			});
 
 })(jQuery);
+
+
+function autoplay()
+{
+	var a = document.getElementById("audio");
+	a.play();
+}
